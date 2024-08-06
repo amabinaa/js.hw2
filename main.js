@@ -15,55 +15,41 @@
 
 //b
 
-//  switch (time) {
-//     case 0:
-//     case 1:
-//     case 2:
-//     case 3:
-//     case 4:
-//     case 5:
-//     case 6:
-//         alert( time + " часа ночи");
-//         break;
-//     case 7:
-//     case 8:
-//     case 9:
-//     case 10:
-//         alert (time + " часов утра");
-//         break;
-//     case 11:
-//     case 12:
-//     case 13:
-//     case 14:
-//     case 15:
-//     case 16:
-//     case 17:  
-//         alert (time + " часов дня");
-//         break;
-//     case 18:
-//     case 19:
-//     case 20:
-//     case 21:
-//     case 22:
-//     case 23:
-//         alert (time + " часов вечера ");
-//         break;
-//     default:
-//         alert ("something is wrong")
+// let time = +prompt("Введмие время")
 
+//  switch (true) {
+//       case (time >= 0 && time <= 6):
+//          message = time + " часа ночи";
+//          alert(message)
+//          break;
+//      case (time >= 7 && time <= 10):
+//          message = time + " часов утра";
+//          alert(message)
+//          break;
+//      case (time >= 11 && time <= 17):
+//       time = time - 12
+//          message = time + " часов дня";
+//          alert(message)
+//          break;
+//      case (time >= 18 && time <= 23):
+//       time = time - 12
+//          message = time + " часов вечера";
+//          alert(message)
+//          break;
 //  }
 
- //c
- var one = +prompt( "Enter the 1st number" );
- var two = +prompt( "Enter the 2nd number" );
- var three = +prompt( "Enter the 3rd number" );
+//c
 
- if ((two>one && two<three)|| (two<one && two>three)){
-    alert( two + " среднее число")
- } else if ((one>two && one<three) || (one<two && one>three )){
-    alert (one + " среднее число")
- } else if ((three<two && three>one )|| (three<one && three>two)) {
-    alert (three+ " среднее число")
- } else {
-    alert(" нет среднего числа")
- }
+// var one = +prompt("Enter the 1st number");
+// var two = +prompt("Enter the 2nd number");
+// var three = +prompt("Enter the 3rd number");
+
+// if ((two > one && two < three) || (two < one && two > three)) {
+//     alert(two + " среднее число")
+// } else if ((one > two && one < three) || (one < two && one > three)) {
+//     alert(one + " среднее число")
+// } else if ((three < two && three > one) || (three < one && three > two)) {
+//     alert(three + " среднее число")
+// } else {
+//     alert(" нет среднего числа")
+// }
