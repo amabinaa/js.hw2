@@ -1,4 +1,4 @@
-a
+//a
 
 var age = +prompt ("enter your age:")
 if ( age > 0 && age <= 18) {
@@ -13,7 +13,7 @@ if ( age > 0 && age <= 18) {
     alert ("что-то не так")
 }
 
-b
+//b
 
 let time = +prompt("Введмие время")
 
@@ -38,7 +38,7 @@ let time = +prompt("Введмие время")
          break;
  }
 
-c
+//c
 
 var one = +prompt("Enter the 1st number");
 var two = +prompt("Enter the 2nd number");
